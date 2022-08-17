@@ -12,12 +12,12 @@
 	<groupId>com.example</groupId>
 	<artifactId>com.employee</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>com.employee</name>
 	<description>Demo project for Spring Boot</description>
-	
+
 	<properties>
-	<start-class>com.example.demo.Application</start-class>
+		<start-class>com.example.demo.Application</start-class>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
@@ -28,6 +28,20 @@
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
 		</dependency>
+
+
+		<dependency>
+			<groupId>net.sf.cssbox</groupId>
+			<artifactId>pdf2dom</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			
+		</dependency>
+
 
 
 

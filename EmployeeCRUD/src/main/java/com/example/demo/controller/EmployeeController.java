@@ -22,8 +22,8 @@ public class EmployeeController {
 	
 	
 	@Autowired
-	private EmployeeRepository employeerepository;
-	
+	private EmployeeRepository employeerepository;  //@Autowired here to avoid tight coupling
+	                                                //@Autowired -@Component
 	
 	
 	@GetMapping("/home")
